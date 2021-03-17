@@ -9,7 +9,8 @@
     "@material/mwc-icon-button": "^0.20.0",
     "@material/mwc-icon-button-toggle": "^0.20.0",
     "@material/mwc-top-app-bar": "^0.20.0",
-    "@polymer/polymer": "^3.0.0"
+    "@polymer/polymer": "^3.0.0",
+    "polymer-cli": "^1.9.11"
   },
   "scripts": {
     "dev": "polymer serve",
