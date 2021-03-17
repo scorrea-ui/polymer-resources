@@ -12,7 +12,8 @@
     "@polymer/polymer": "^3.0.0"
   },
   "scripts": {
-    "dev": "polymer serve"
+    "dev": "polymer serve",
+    "build": "polymer build"
   },
   "devDependencies": {
     "@polymer/test-fixture": "^4.0.2",
