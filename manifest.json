@@ -1,0 +1,7 @@
+{
+  "name": "wegrix-polymer-blog",
+  "short_name": "wegrix-polymer-blog",
+  "description": "Use some teaching opportunities to help people learn about programming",
+  "start_url": "/",
+  "display": "standalone"
+}
