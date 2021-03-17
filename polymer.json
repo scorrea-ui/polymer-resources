@@ -1,8 +1,12 @@
 {
-  "npm": true,
-  "lint": {
-    "rules": [
-      "polymer-3"
-    ]
-  }
+  "entrypoint": "index.html",
+  "shell": "src/polymer-blog/polymer-blog.js",
+  "sources": ["src/polymer-blog/polymer-blog.js", "manifest/**", "package.json"],
+  "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/bundles/**"
+  ],
+  "builds": [{ "preset": "es6-bundled" }],
+  "moduleResolution": "node",
+  "npm": true
 }

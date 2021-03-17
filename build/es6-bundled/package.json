@@ -1,0 +1,26 @@
+{
+  "name": "wegrix-polymer-blog",
+  "description": "Use some teaching opportunities to help people learn about programming",
+  "dependencies": {
+    "@material/card": "^10.0.0",
+    "@material/mwc-button": "^0.20.0",
+    "@material/mwc-drawer": "^0.20.0",
+    "@material/mwc-icon": "^0.20.0",
+    "@material/mwc-icon-button": "^0.20.0",
+    "@material/mwc-icon-button-toggle": "^0.20.0",
+    "@material/mwc-top-app-bar": "^0.20.0",
+    "@polymer/polymer": "^3.0.0",
+    "polymer-cli": "^1.9.11"
+  },
+  "scripts": {
+    "dev": "polymer serve",
+    "build": "polymer build"
+  },
+  "devDependencies": {
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "wct-mocha": "^1.0.1"
+  }
+}
